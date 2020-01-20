@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css"> 
+    <title>Consulta Fornecedores Cadastrados</title>
+</head>
+<body>
+
+<main>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">Cadastro <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="consulta.html">Consulta</a>
+            </li>
+           
+          </ul>
+
+        </div>
+      </nav>
+
+      <div id="Container">
+            <h1>Agenda de Contatos utilizando AJAX</h1>
+            <hr/>
+ 
+            <h2>Pesquisar Contato:</h2>
+            <div id="Pesquisar">
+                Infome o nome: 
+                <input type="text" name="txtnome" id="txtnome"/> 
+                <input type="button" name="btnPesquisar" value="Pesquisar" onclick="getDados();"/>
+            </div>
+            <hr/>
+ 
+            <h2>Resultados da pesquisa:</h2>
+            <div id="Resultado"></div>
+            <hr>
+ 
+        </div>
+    
+            </main>
+              
+   
+            <script src="js/jquery.js"></script>
+            <script src="js/popper.js"></script>
+              
+            <script src="js/bootstrap.js"></script>
+            
+          
+             
+              <script src="js/ajax.js"></script>
+</body>
+</input>

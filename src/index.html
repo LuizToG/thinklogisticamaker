@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Think! Logistica</title>
+</head>
+<body>
+<nav nav class="navbar navbar-expand-lg navbar-primary bg-primary">
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" 
+        aria-haspopup="true" aria-expanded="false">
+        Cadastro
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="#">Ação</a>
+        <a class="dropdown-item" href="#">Outra ação</a>
+        <a class="dropdown-item" href="#">Algo mais aqui</a>
+      </div>
+    </li>  
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        Consulta
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="#">Ação</a>
+        <a class="dropdown-item" href="#">Outra ação</a>
+        <a class="dropdown-item" href="#">Algo mais aqui</a>
+      </div>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        Movimentações
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="#">Ação</a>
+        <a class="dropdown-item" href="#">Outra ação</a>
+        <a class="dropdown-item" href="#">Algo mais aqui</a>
+      </div>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        Logística Reversa
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="#">Ação</a>
+        <a class="dropdown-item" href="#">Outra ação</a>
+        <a class="dropdown-item" href="#">Algo mais aqui</a>
+      </div>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown5" role="button" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        Parâmetros
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="#">Ação</a>
+        <a class="dropdown-item" href="#">Outra ação</a>
+        <a class="dropdown-item" href="#">Algo mais aqui</a>
+      </div>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown6" role="button" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        Relatórios
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="#">Ação</a>
+        <a class="dropdown-item" href="#">Outra ação</a>
+        <a class="dropdown-item" href="#">Algo mais aqui</a>
+      </div>
+    </li>
+  </ul>  
+</nav>
+<main>
+  <form>
+    <fieldset disabled>
+      <div class="form-row">
+        <div class="col" id="Labelnegrito">
+          <label for="exampleInputDocumento">Documento</label>
+          <input type="number" class="form-control" id="exampleInputDocumento"> 
+        </div>
+        <div class="col">
+          <label for="exampleInputFornecedor">Fornecedor</label>
+          <input type="text" class="form-control" id="exampleInputFornecedor">
+        </div>
+        <div class="col">
+          <label for="exampleInputData">Data</label>
+          <input type="date" class="form-control" id="exampleInputData">
+        </div>
+        <div class="col">
+            <label for="exampleInputHora">Hora</label>
+            <input type="time" class="form-control" id="exampleInputHora">
+        </div>
+        <div class="col">
+          <label for="exampleInputPrioridade">Prioridade</label>
+          <input type="text" class="form-control" id="exampleInputPrioridade">
+        </div>
+        <button type="submit" class="btn btn-primary">Imprir</button>
+      </div>
+    </fieldset>
+  </form>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Item</th>
+        <th scope="col">Descrição Modelo</th>
+        <th scope="col">Pagina</th>
+        <th scope="col">Tamanho</th>
+        <th scope="col">Modelo</th>
+        <th scope="col">Quantidade Romaneio</th>
+        <th scope="col">Quantidade Via Cega</th>
+        <th scope="col">Diferença Quantidade</th>
+        <th scope="col">Ocorrencia</th>
+        <th scope="col">Autorização</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Teste</td>
+        <td>Teste</td>
+        <td>Teste</td>
+        <td>Teste</td>
+        <td>Teste</td>
+        <td>Teste</td>
+        <td>Teste</td>
+        <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">...</button>
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Ocorrencia</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-group">
+                          <label for="recipient-name" class="col-form-label">Tipo Ocorrencia:</label>
+                            <div class="dropdown">
+                              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Tipo de Ocorrencia</button>
+                              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#" value="1">Defeito</a>
+                                <a class="dropdown-item" href="#" value="2">Quantidade Errada</a>
+                                <a class="dropdown-item" href="#" value="3">Variação</a>
+                                <a class="dropdown-item" href="#" value="4">item Informado errado</a>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="message-text" class="col-form-label">Observação:</label>
+                          <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Voltar</button>
+                      <button type="button" class="btn btn-primary">Salvar</button>
+                    </div>
+                  </div>
+              </div>
+        </div></td>
+        <td><input type="checkbox" aria-label="Checkbox for following text input"></td>
+      </tr>
+    </tbody>
+  </table>
+  <form>
+    <fieldset disabled>
+      <div class="form-row">
+        <div><p><strong>Total:</strong></p></div>
+        <div class="col">
+          <label for="exampleInputDocumento"></label>
+          <input type="number" class="form-control" id="exampleInputDocumento">
+        </div>
+        <div class="col">
+          <label for="exampleInputFornecedor"></label>
+          <input type="number" class="form-control" id="exampleInputFornecedor">
+        </div>
+        <div class="col">
+          <label for="exampleInputData"></label>
+          <input type="number" class="form-control" id="exampleInputData">
+        </div>
+        <button type="submit" class="btn btn-primary">Liberar para Etiquetagem</button>
+      </div>
+    </fieldset>
+  </form>
+</main>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+             
+</body>
+</input>
